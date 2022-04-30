@@ -1,0 +1,122 @@
+:root {
+	--main-font: "Open Sans", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--main-text-color: #9da4bd;
+	--secondary-text-color: #555555;
+	--white-text-color: #ffffff;
+	--title-color: #303030;
+	--upper-title-light: rgba(157, 164, 189, 0.6);
+	--orange-color: #ff6c00;
+	--hero-background: rgba(25, 28, 38, 0.2);
+	--price-background: #111319;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+}
+
+.link {
+	text-decoration: none;
+	color: currentColor;
+}
+.list {
+	list-style: none;
+}
+.background {
+	background-color: var(--hero-background);
+}
+.main-nav {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+
+	color: var(--white-text-color);
+}
+
+.tel {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: var(--white-text-color);
+}
+.online-write {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+
+	color: var(--white-text-color);
+}
+.instagram,
+.youtube {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+
+	color: var(--title-color);
+	transform: rotate(-90deg);
+}
+
+.main-nav:hover,
+.main-nav:focus,
+.tel:hover,
+.tel:focus,
+.online-write:hover,
+.online-write:focus,
+.instagram:hover,
+.instagram:focus,
+.youtube:hover,
+.youtube:focus {
+	color: var(--orange-color);
+}
+.upper-title-light {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: var(--upper-title-light);
+}
+.hero-title {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.18;
+	letter-spacing: 0.05em;
+
+	color: var(--white-text-color);
+}
+.sub-title {
+	color: var(--main-text-color);
+}
+.btn-back {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	background: transparent;
+	border: 0;
+	letter-spacing: 0.1em;
+	color: var(--upper-title-light);
+}
+.btn-forward {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	text-align: right;
+	letter-spacing: 0.1em;
+
+	color: var(--white-text-color);
+}
